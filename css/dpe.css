@@ -1,0 +1,43 @@
+#dpe{position:relative;width:100%;font-family:'Century Gothic',arial; font-size:12px;}
+
+#dpe_conteneur{position:relative;padding:5px;}
+
+#dpe_consommation, #dpe_emission{width:47%;position:relative;float:left;}
+
+#dpe_emission{float:right;}
+
+.dpe_titre{font-weight:bolder;font-size:8px;text-transform:uppercase;color:#222222;display:none;}
+
+.dpe_tableau{position:relative;width:0%; display:none;padding-right:5px; border-right:1px solid #999999;}
+
+.dpe_valeur{position:absolute;width:0%; display:none;width:30%;height:30px; right:0; top:0; line-height:30px; color:#fff; text-align:right; font-weight:bolder; background-color:#218D21; background-image:url(../../../index.html); background-repeat:no-repeat;background-position:top left;}
+.dpe_valeur span {margin-right:2px;}
+.dpe_valeur div span+br+span {font-size:9px !important; color:#000 !important;line-height:normal;}
+
+.dpe_tableau div {position:relative; height:30px; color:#000000; background-image:url(../../../index.html); background-repeat:no-repeat;background-position:top right;}
+.dpe_tableau div span {margin-right:30px;padding-top:5px;display:block; float:right;font-weight:bolder;}
+.dpe_tableau div .info{position:absolute; z-index:2; left:0; font-size:75%;top:5px;}
+
+.dpe_fleche_1{position:relative; margin-bottom:2px; width:40%;}
+.dpe_fleche_2{position:relative; margin-bottom:2px; width:50%;}
+.dpe_fleche_3{position:relative; margin-bottom:2px; width:60%;}
+.dpe_fleche_4{position:relative; margin-bottom:2px; width:70%;}
+.dpe_fleche_5{position:relative; margin-bottom:2px; width:80%;}
+.dpe_fleche_6{position:relative; margin-bottom:2px; width:90%;}
+.dpe_fleche_7{position:relative; margin-bottom:2px; width:100%;}
+
+.dpe_consommation_1{background-color:#218d21;}
+.dpe_consommation_2{background-color:#21c621;}
+.dpe_consommation_3{background-color:#b6e71d;}
+.dpe_consommation_4{background-color:#fefd00;}
+.dpe_consommation_5{background-color:#fecb00;}
+.dpe_consommation_6{background-color:#f4830f;}
+.dpe_consommation_7{background-color:#e30000;}
+
+.dpe_emission_1{background-color:#f6ecfd;}
+.dpe_emission_2{background-color:#e1c2f9;}
+.dpe_emission_3{background-color:#d4a9f6;}
+.dpe_emission_4{background-color:#cc95f4;}
+.dpe_emission_5{background-color:#b971ee;}
+.dpe_emission_6{background-color:#a74dec;}
+.dpe_emission_7{background-color:#8918de;}

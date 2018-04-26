@@ -1,0 +1,75 @@
+/*
+* Bandeau Cookie dans son ensemble
+*/
+#cookieChoiceInfo {
+	background-color: rgba(0, 0, 0, 0.9);
+	bottom: 20px;
+	box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.3) inset, 0 1px 3px rgba(0, 0, 0, 0.55);
+	margin: 0;
+	padding: 15px 10px 15px 20px;
+	position: fixed;
+	right: 20px;
+	text-align: left;
+	width: 250px;
+	z-index: 20;
+	border-radius: 10px;
+
+}
+
+/*
+* Texte
+*/
+#cookieChoiceInfo span {
+	color: #FFF;
+}
+
+#cookieChoiceInfo span::before {
+  content: "Utilisation des cookies";
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  position: relative;
+  text-align: left;
+}
+
+
+/*
+* Boutons
+*/
+#cookieChoiceInfo a {
+	color: #fff !important;
+	padding: 3px 0;
+
+}
+
+/*
+* Bouton "En savoir plus"
+*/
+
+#cookieChoiceInfo a:last-child {
+  background-color: rgba(255, 255, 255, 0.4);
+border-radius: 10px;
+display: block;
+font-size: 15px;
+font-weight: bold;
+left: 0;
+margin-left: 0;
+margin-top: 10px;
+padding: 5px 10px;
+position: relative;
+text-align: left;
+width: 12px;
+}
+
+
+#cookieChoiceInfo a:not(#cookieChoiceDismiss) {
+	font-weight: bold;
+	margin-left: 8px;
+}
+
+/*
+* Bouton pour fermer le cookie
+*/
+#cookieChoiceDismiss {
+	margin-left: 24px;
+}

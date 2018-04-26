@@ -1,0 +1,108 @@
+/*!
+Theme Name: englishcoach
+Theme URI: http://shabbir.me/
+Author: Mostafiz Shabbir
+Author URI: http://shabbir.me/
+Description: This is wordpress cusotm theme created by mostafiz shabbir. Its fully responsive and dynamic website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: englishcoach
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+
+
+.nav-links span.page-numbers.current {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 12px 18px;
+	margin: 0;
+	font-family: "Roboto Condensed",sans-serif;
+	font-size: 14px;
+	color: #fff !important;
+	font-weight: normal !important;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	line-height: 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-transition: all 80ms ease-in 0ms;
+	-o-transition: all 80ms ease-in 0ms;
+	-webkit-transition: all 80ms ease-in;
+	-webkit-transition-delay: 0ms;
+	transition: all 80ms ease-in 0ms;
+	background-color: #20368a;
+}
+.nav-links a.page-numbers {
+	background: none;
+	box-shadow: none;
+	border: 1px solid #000;
+	border-top-color: rgb(0, 0, 0);
+	border-right-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(0, 0, 0);
+	border-left-color: rgb(0, 0, 0);
+	border-color: rgba(0,0,0,0.25);
+	color: #000 !important;
+	color: rgba(0,0,0,0.85) !important;
+	text-shadow: none;
+	display: inline-block;
+	padding: 11px;
+	margin: 0 5px;
+	float: left;
+}
+.navigation.pagination {
+	position: relative;
+	top: -8px;
+}
+.centrage .current-menu-item {
+	background: #C1121F;
+}
+.page-container{
+	padding: 30px 0;
+}
+
+.page-container img{
+	width: 100%;
+}
+.ann-elem:nth-child(2) {
+	width: 100%;
+	padding: 18px;
+}
+.p-contact p{
+	text-align: center;
+}
+.footer-liens a {
+	color: #fff;
+}
+.txt_contenu p {
+    color: #000;
+}
